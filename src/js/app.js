@@ -111,7 +111,7 @@ App = {
         assemblyInstance = instance;
     
         // Execute adopt as a transaction by sending account
-        return assemblyInstance.getDoors(materialsID, {from: account});
+        return assemblyInstance.getDoors();
       }).then(function(result) {
         return App.markAssembled();
       }).catch(function(err) {
