@@ -4,7 +4,7 @@ App = {
 
   init: async function() {
     // Load materials.
-    $.getJSON('../materials.json', function(data) {
+    $.getJSON('materials.json', function(data) {
       var materialsRow = $('#materialsRow');
       var materials_template = $('#materials_template');
 
@@ -56,7 +56,7 @@ App = {
   },
 
   initContract: function() {
-    $.getJSON('materials.json', function(data) {
+    $.getJSON('Manufacturing.json', function(data) {
       // Get the necessary contract artifact file and instantiate it with @truffle/contract
       var ManufacturingArtifact = data;
       App.contracts.Manufacturing = TruffleContract(ManufacturingArtifact);
@@ -81,7 +81,7 @@ App = {
     App.contracts.Manufacturing.deployed().then(function(instance) {
       assemblyInstance = instance;
 
-    return assemblyInstance.getDoors.call();
+    return assemblyInstance.getProducts.call();
     }).then(function(clients) {
       for (i = 0; i < clients.length; i++) {
         if (clients[i] !== '0x0000000000000000000000000000000000000000') {
