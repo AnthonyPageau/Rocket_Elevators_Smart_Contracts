@@ -1,78 +1,76 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.4.22 <0.8.0;
+pragma experimental ABIEncoderV2;
 
-contract Manufacturing {
+contract Ballot {
     
-    address[1] public client;
+    mapping (string => uint256) public materials;
     
-    // hardcoded item values 
-    uint steel_panel = 36 ;
-    uint rails = 36 ;
-    uint sensor = 8 ;
-
-
-
-
-
-    // this is the basic requirements for a single elevator
-    struct doors{ 
-        uint steel_panel; // 2 steel panels
-        uint rails; // 2 rails
-        uint sensor; // 1 sensor
+     struct Product {
+        string Name;
+        uint256 Quantity;
+    }
+    
+    struct Door{ 
+        uint256 steel_panel; 
+        uint256 rails; 
+        uint256 sensor;
     } 
 
-    struct frame{
-        uint steelsheet; // 10 steel sheets
-        uint pulley; // 2 pulleys
-        uint motor; // 2 motors
-        uint steelcable; // 2 steelcable
+    struct Frame{
+        uint256 steelsheet;
+        uint256 pulley;
+        uint256 motor; 
+        uint256 steelcable;
     }
-
-    struct button{
-        uint ledlight; // 1 led light
-        uint button; // 1 button
+    
+    struct Button{
+        uint256 ledlight;
+        uint256 button;
     }
-
-    struct display{
-        uint screen; // i lcd screen
+    
+    struct Display{
+        uint256 screen;
     }
-
-    struct battery{
-        uint controller; // 1 controller
+    
+    struct Battery{
+        uint256 controller;
     }
-
-
-    // assembling the doors
-    function assembleDoors(uint steel_panel, uint rails, uint sensor) public returns (uint){
-
-        require (steel_panel >= 2 && rails >= 2 && sensor >= 1);
-
-        client[steel_panel] = msg.sender;
-
-
-        return steel_panel;
-
-    } 
-
-       // Retrieving the clients
-    function getClients() public view returns (address[1] memory) {
-        return client;
+    
+    Product productStruct;
+    Product[] productList;
+    
+    constructor() public {
+        
+        materials["steel_panel"] = 36;
+        materials["rails"] = 36;
+        materials["sensor"] = 8;
+        materials["steelsheet"] = 20;
+        materials["pulley"] = 16;
+        materials["motor"] = 16;
+        materials["steelcable"] = 16;
+        materials["ledlight"] = 50;
+        materials["button"] = 50;
+        materials["screen"] = 8;
+        materials["controller"] = 1;
     }
+    
+    function doors() public returns (uint256 numDoors) {
+        Door memory door1 = Door(2, 2, 1);
+        numDoors = materials["steel_panel"] /= door1.steel_panel;
+        productStruct.Name = "Door";
+        productStruct.Quantity = numDoors;
+        productStruct.Quantity = numDoors;
+        productList.push(productStruct);
+        return numDoors;
+    }
+    
+    function getDoors() public {
+        doors();
+    }
+    
+    function production() public view returns (Product[] memory) {
+        return productList;
 
-
-    // // Adopting a pet
-    // function adopt(uint petId) public returns (uint) {
-    //     require(petId >= 0 && petId <= 15);
-
-    //     adopters[petId] = msg.sender;
-
-    //     return petId;
-    // }
-
-    // // Retrieving the adopters
-    // function getAdopters() public view returns (address[16] memory) {
-    //     return adopters;
-    // }
-
-
-
+    }
 }
