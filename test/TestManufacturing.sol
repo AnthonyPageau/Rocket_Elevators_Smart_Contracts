@@ -14,13 +14,22 @@ contract TestManufacturing {
  //The expected owner of adopted pet is this contract
  address expectedClient = address(this);
 
- bytes32[] proposalNames;
+//  bytes32[] proposalNames;
    
-    Ballot ballotToTest;
-    function beforeAll () public {
-        proposalNames.push(bytes32("candidate1"));
-        ballotToTest = new Ballot(proposalNames);
-    }
+//     Ballot ballotToTest;
+//     function beforeAll () public {
+//         proposalNames.push(bytes32("candidate1"));
+//         ballotToTest = new Ballot(proposalNames);
+//     }
+
+
+    // Testing retrieval of all pet owners
+function testGetAdopterAddressByPetIdInArray() public {
+  // Store adopters in memory rather than contract's storage
+  address[16] memory clients = adoption.getAdopters();
+
+  Assert.equal(clients[expectednumDoors], expectedClient, "Owner of the expected pet should be this contract");
+}
 //  // Testing the adopt() function
 //     function testUserCanAssembleDoors() public {
 //         uint returnedNumber = ballot.doors();
