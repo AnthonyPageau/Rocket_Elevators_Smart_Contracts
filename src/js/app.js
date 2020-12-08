@@ -47,7 +47,7 @@ App = {
   },
 
   initContract: function() {
-    $.getJSON('doors.json', function(data) {
+    $.getJSON('./doors.json', function(data) {
       // Get the necessary contract artifact file and instantiate it with @truffle/contract
       var ManufacturingArtifact = data;
       App.contracts.Manufacturing = TruffleContract(ManufacturingArtifact);
