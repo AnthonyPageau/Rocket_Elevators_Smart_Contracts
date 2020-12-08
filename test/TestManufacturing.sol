@@ -9,17 +9,24 @@ contract TestManufacturing {
  Ballot ballot = Ballot(DeployedAddresses.Ballot());
 
  // The id of the pet that will be used for testing
- uint expectednumDoors = 2;
+ uint expectednumDoors = 1;
 
  //The expected owner of adopted pet is this contract
  address expectedClient = address(this);
 
- // Testing the adopt() function
-    function testUserCanAssembleDoors() public {
-        uint returnedNumber = ballot.doors();
-
-        Assert.equal(returnedNumber, expectednumDoors, "Number of doors of the expected quality should match what is returned.");
+ bytes32[] proposalNames;
+   
+    Ballot ballotToTest;
+    function beforeAll () public {
+        proposalNames.push(bytes32("candidate1"));
+        ballotToTest = new Ballot(proposalNames);
     }
+//  // Testing the adopt() function
+//     function testUserCanAssembleDoors() public {
+//         uint returnedNumber = ballot.doors();
+
+//         Assert.equal(returnedNumber, expectednumDoors, "Number of doors of the expected quality should match what is returned.");
+//     }
 
     // // Testing retrieval of a single pet's owner
     // function testGetAdopterAddressByPetId() public {
