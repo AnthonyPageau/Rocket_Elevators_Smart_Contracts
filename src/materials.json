@@ -1,0 +1,17 @@
+[
+  {
+    "steel_panel": 36,
+    "rails": 36,
+    "sensor": 8,
+    "steel_sheet": 20,
+    "pulley":16,
+    "motor": 16,
+    "steelcable":16,
+    "ledlight":50,
+    "button":50,
+    "screen":8,
+    "controller":1
+    
+  }
+  
+]

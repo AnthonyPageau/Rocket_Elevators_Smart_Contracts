@@ -3,18 +3,27 @@ App = {
   contracts: {},
 
   init: async function() {
-    // Load doors.
-    $.getJSON('../doors.json', function(data) {
-      var doorsRow = $('#doorsRow');
-      var doors_template = $('#doors_template');
+    // Load materials.
+    $.getJSON('../materials.json', function(data) {
+      var materialsRow = $('#materialsRow');
+      var materials_template = $('#materials_template');
 
       for (i = 0; i < data.length; i ++) {
-        doors_template.find('.steel_panel').text(data[i].steel_panel);
-        doors_template.find('.rails').text( data[i].rails);
-        doors_template.find('.sensor').text(data[i].sensor);
-        doors_template.find('.btn-assemble').attr('data-id', data[i].id);
+        materials_template.find('.steel_panel').text(data[i].steel_panel);
+        materials_template.find('.rails').text( data[i].rails);
+        materials_template.find('.sensor').text(data[i].sensor);
+        materials_template.find('.steel_sheet').text(data[i].steel_sheet);
+        materials_template.find('.pulley').text( data[i].pulley);
+        materials_template.find('.motor').text(data[i].motor);
+        materials_template.find('.steelcable').text(data[i].steelcable);
+        materials_template.find('.ledlight').text( data[i].ledlight);
+        materials_template.find('.button').text(data[i].button);
+        materials_template.find('.screen').text(data[i].screen);
+        materials_template.find('.controller').text( data[i].controller);
+        materials_template.find('.btn-assemble').attr('data-id', data[i].id);
+        materials_template.find('.btn-production').attr('data-id', data[i].id);
 
-        doorsRow.append(doors_template.html());
+        materialsRow.append(materials_template.html());
       }
     });
 
@@ -47,7 +56,7 @@ App = {
   },
 
   initContract: function() {
-    $.getJSON('./doors.json', function(data) {
+    $.getJSON('materials.json', function(data) {
       // Get the necessary contract artifact file and instantiate it with @truffle/contract
       var ManufacturingArtifact = data;
       App.contracts.Manufacturing = TruffleContract(ManufacturingArtifact);
@@ -56,27 +65,27 @@ App = {
       App.contracts.Manufacturing.setProvider(App.web3Provider);
     
       // Use our contract to retrieve and mark the adopted pets
-      return App.markDoorAssembled();
+      return App.markAssembled();
     });
 
     return App.bindEvents();
   },
 
   bindEvents: function() {
-    $(document).on('click', '.btn-assemble', App.handleDoorAssembly);
+    $(document).on('click', '.btn-assemble', App.handleAssemble);
   },
 
-  markDoorAssembled: function() {
-    var doorAssemblyInstance;
+  markAssembled: function() {
+    var assemblyInstance;
 
     App.contracts.Manufacturing.deployed().then(function(instance) {
-      doorAssemblyInstance = instance;
+      assemblyInstance = instance;
 
-    return doorAssemblyInstance.getDoors.call();
+    return assemblyInstance.getDoors.call();
     }).then(function(clients) {
       for (i = 0; i < clients.length; i++) {
         if (clients[i] !== '0x0000000000000000000000000000000000000000') {
-          $('.panel-door').eq(i).find('button').text('Success').attr('disabled', true);
+          $('.panel-assembly').eq(i).find('button').text('Success').attr('disabled', true);
         }
       }
     }).catch(function(err) {
@@ -84,12 +93,12 @@ App = {
     });
   },
 
-  handleDoorAssembly: function(event) {
+  handleAssemble: function(event) {
     event.preventDefault();
 
-    var steel_panel = parseInt($(event.target).data('steel-panel'));
+    var materialsID = parseInt($(event.target).data('id'));
 
-    var doorAssemblyInstance;
+    var assemblyInstance;
 
     web3.eth.getAccounts(function(error, accounts) {
       if (error) {
@@ -99,12 +108,12 @@ App = {
       var account = accounts[0];
     
       App.contracts.Manufacturing.deployed().then(function(instance) {
-        doorAssemblyInstance = instance;
+        assemblyInstance = instance;
     
         // Execute adopt as a transaction by sending account
-        return doorAssemblyInstance.assembleDoors(steel_panel, {from: account});
+        return assemblyInstance.getDoors(materialsID, {from: account});
       }).then(function(result) {
-        return App.markDoorAssembled(result);
+        return App.markAssembled();
       }).catch(function(err) {
         console.log(err.message);
       });
@@ -112,6 +121,9 @@ App = {
   }
 
 };
+
+
+
 
 $(function() {
   $(window).load(function() {
