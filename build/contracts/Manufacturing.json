@@ -69,21 +69,21 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"steel_panel\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"rails\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"sensor\",\"type\":\"uint256\"}],\"name\":\"assembleDoors\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"client\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getClients\",\"outputs\":[{\"internalType\":\"address[1]\",\"name\":\"\",\"type\":\"address[1]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/mrcbilou/week12/contracts/Manufacturing.sol\":\"Manufacturing\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/mrcbilou/week12/contracts/Manufacturing.sol\":{\"keccak256\":\"0x248ed8325c70162ea12bd53db51ce06e4501af0a2760c001ade7a989d3d4e5e7\",\"urls\":[\"bzz-raw://9b4d929e9299631a25f920f5d5206c5285031ee4b04a11e1190fc13d7c08628d\",\"dweb:/ipfs/QmQbicSByd5xfb72P3kq6YWXt2X57jcZLHJtx2GTsFtzGN\"]}},\"version\":1}",
-  "bytecode": "0x608060405260246001556024600255600860035534801561001f57600080fd5b506102dc8061002f6000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80636658ecc1146100465780636db809951461009c578063812e3219146100e2575b600080fd5b6100866004803603606081101561005c57600080fd5b81019080803590602001909291908035906020019092919080359060200190929190505050610150565b6040518082815260200191505060405180910390f35b6100a46101d1565b6040518082600160200280838360005b838110156100cf5780820151818401526020810190506100b4565b5050505090500191505060405180910390f35b61010e600480360360208110156100f857600080fd5b8101908080359060200190929190505050610252565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600060028410158015610164575060028310155b8015610171575060018210155b61017a57600080fd5b336000856001811061018857fe5b0160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508390509392505050565b6101d9610285565b6000600180602002604051908101604052809291908260018015610248576020028201915b8160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190600101908083116101fe575b5050505050905090565b6000816001811061025f57fe5b016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b604051806020016040528060019060208202803883398082019150509050509056fea265627a7a723158207181e8fbe2c3d4f6922b91587e7075243ad954e63e04dab1eca4216940e6833164736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c80636658ecc1146100465780636db809951461009c578063812e3219146100e2575b600080fd5b6100866004803603606081101561005c57600080fd5b81019080803590602001909291908035906020019092919080359060200190929190505050610150565b6040518082815260200191505060405180910390f35b6100a46101d1565b6040518082600160200280838360005b838110156100cf5780820151818401526020810190506100b4565b5050505090500191505060405180910390f35b61010e600480360360208110156100f857600080fd5b8101908080359060200190929190505050610252565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600060028410158015610164575060028310155b8015610171575060018210155b61017a57600080fd5b336000856001811061018857fe5b0160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508390509392505050565b6101d9610285565b6000600180602002604051908101604052809291908260018015610248576020028201915b8160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190600101908083116101fe575b5050505050905090565b6000816001811061025f57fe5b016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b604051806020016040528060019060208202803883398082019150509050509056fea265627a7a723158207181e8fbe2c3d4f6922b91587e7075243ad954e63e04dab1eca4216940e6833164736f6c63430005100032",
-  "sourceMap": "25:1530:0:-;;;143:2;124:21;;165:2;152:15;;188:1;174:15;;25:1530;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1530:0;;;;;;;",
-  "deployedSourceMap": "25:1530:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1530:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;830:234;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;830:234:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1104:92;;;:::i;:::-;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1104:92:0;;;;;;;;;;;;;;;;59:24;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;59:24:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;830:234;912:4;952:1;937:11;:16;;:30;;;;;966:1;957:5;:10;;937:30;:45;;;;;981:1;971:6;:11;;937:45;928:55;;;;;;1016:10;994:6;1001:11;994:19;;;;;;;;;:32;;;;;;;;;;;;;;;;;;1045:11;1038:18;;830:234;;;;;:::o;1104:92::-;1147:17;;:::i;:::-;1183:6;1176:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1104:92;:::o;59:24::-;;;;;;;;;;;;;;;;;;;;;;;:::o;25:1530::-;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;25:1530:0;;;;:::o",
-  "source": "pragma solidity ^0.5.0;\n\ncontract Manufacturing {\n    \n    address[1] public client;\n    \n    // hardcoded item values \n    uint steel_panel = 36 ;\n    uint rails = 36 ;\n    uint sensor = 8 ;\n\n\n\n\n\n    // this is the basic requirements for a single elevator\n    struct doors{ \n        uint steel_panel; // 2 steel panels\n        uint rails; // 2 rails\n        uint sensor; // 1 sensor\n    } \n\n    struct frame{\n        uint steelsheet; // 10 steel sheets\n        uint pulley; // 2 pulleys\n        uint motor; // 2 motors\n        uint steelcable; // 2 steelcable\n    }\n\n    struct button{\n        uint ledlight; // 1 led light\n        uint button; // 1 button\n    }\n\n    struct display{\n        uint screen; // i lcd screen\n    }\n\n    struct battery{\n        uint controller; // 1 controller\n    }\n\n\n    // assembling the doors\n    function assembleDoors(uint steel_panel, uint rails, uint sensor) public returns (uint){\n\n        require (steel_panel >= 2 && rails >= 2 && sensor >= 1);\n\n        client[steel_panel] = msg.sender;\n\n\n        return steel_panel;\n\n    } \n\n       // Retrieving the clients\n    function getClients() public view returns (address[1] memory) {\n        return client;\n    }\n\n\n    // // Adopting a pet\n    // function adopt(uint petId) public returns (uint) {\n    //     require(petId >= 0 && petId <= 15);\n\n    //     adopters[petId] = msg.sender;\n\n    //     return petId;\n    // }\n\n    // // Retrieving the adopters\n    // function getAdopters() public view returns (address[16] memory) {\n    //     return adopters;\n    // }\n\n\n\n}",
-  "sourcePath": "/home/mrcbilou/week12/contracts/Manufacturing.sol",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"steel_panel\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"rails\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"sensor\",\"type\":\"uint256\"}],\"name\":\"assembleDoors\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"client\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getClients\",\"outputs\":[{\"internalType\":\"address[1]\",\"name\":\"\",\"type\":\"address[1]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/anthonypageau/testweek12/Rocket_Elevators_Smart_Contracts/contracts/Manufacturing.sol\":\"Manufacturing\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/anthonypageau/testweek12/Rocket_Elevators_Smart_Contracts/contracts/Manufacturing.sol\":{\"keccak256\":\"0x6e4cb4cf3f937ff30ee2e418dd1a22463d40fdeb19068838ae5c6209e05cb5b2\",\"urls\":[\"bzz-raw://92cd5daf947cc21e3ca3a72c95e253c8ef234f7c4423dd5b4dc8d2b7fe9d7f87\",\"dweb:/ipfs/QmdnzwZbxJuctVu3f1RAkePf9AqSNqMUHiHAft5HhDXXku\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506102dc806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80636658ecc1146100465780636db809951461009c578063812e3219146100e2575b600080fd5b6100866004803603606081101561005c57600080fd5b81019080803590602001909291908035906020019092919080359060200190929190505050610150565b6040518082815260200191505060405180910390f35b6100a46101d1565b6040518082600160200280838360005b838110156100cf5780820151818401526020810190506100b4565b5050505090500191505060405180910390f35b61010e600480360360208110156100f857600080fd5b8101908080359060200190929190505050610252565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600060028410158015610164575060028310155b8015610171575060018210155b61017a57600080fd5b336000856001811061018857fe5b0160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508390509392505050565b6101d9610285565b6000600180602002604051908101604052809291908260018015610248576020028201915b8160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190600101908083116101fe575b5050505050905090565b6000816001811061025f57fe5b016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b604051806020016040528060019060208202803883398082019150509050509056fea265627a7a723158200de7ec58daa0a51159654628a315d1a3037680da7c28a243776e23654abcd9f764736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c80636658ecc1146100465780636db809951461009c578063812e3219146100e2575b600080fd5b6100866004803603606081101561005c57600080fd5b81019080803590602001909291908035906020019092919080359060200190929190505050610150565b6040518082815260200191505060405180910390f35b6100a46101d1565b6040518082600160200280838360005b838110156100cf5780820151818401526020810190506100b4565b5050505090500191505060405180910390f35b61010e600480360360208110156100f857600080fd5b8101908080359060200190929190505050610252565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600060028410158015610164575060028310155b8015610171575060018210155b61017a57600080fd5b336000856001811061018857fe5b0160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508390509392505050565b6101d9610285565b6000600180602002604051908101604052809291908260018015610248576020028201915b8160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190600101908083116101fe575b5050505050905090565b6000816001811061025f57fe5b016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b604051806020016040528060019060208202803883398082019150509050509056fea265627a7a723158200de7ec58daa0a51159654628a315d1a3037680da7c28a243776e23654abcd9f764736f6c63430005100032",
+  "sourceMap": "25:1608:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1608:0;;;;;;;",
+  "deployedSourceMap": "25:1608:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1608:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;908:234;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;908:234:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1182:92;;;:::i;:::-;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1182:92:0;;;;;;;;;;;;;;;;59:24;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;59:24:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;908:234;990:4;1030:1;1015:11;:16;;:30;;;;;1044:1;1035:5;:10;;1015:30;:45;;;;;1059:1;1049:6;:11;;1015:45;1006:55;;;;;;1094:10;1072:6;1079:11;1072:19;;;;;;;;;:32;;;;;;;;;;;;;;;;;;1123:11;1116:18;;908:234;;;;;:::o;1182:92::-;1225:17;;:::i;:::-;1261:6;1254:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1182:92;:::o;59:24::-;;;;;;;;;;;;;;;;;;;;;;;:::o;25:1608::-;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;25:1608:0;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ncontract Manufacturing {\n    \n    address[1] public client;\n    \n    // // hardcoded item values \n    // uint steel_panel = 36 ;\n    // uint rails = 36 ;\n    // uint sensor = 8 ;\n\n\n\n\n\n    // // this is the basic requirements for a single elevator\n    // struct doors{ \n    //     uint steel_panel; // 2 steel panels\n    //     uint rails; // 2 rails\n    //     uint sensor; // 1 sensor\n    // } \n\n    // struct frame{\n    //     uint steelsheet; // 10 steel sheets\n    //     uint pulley; // 2 pulleys\n    //     uint motor; // 2 motors\n    //     uint steelcable; // 2 steelcable\n    // }\n\n    // struct button{\n    //     uint ledlight; // 1 led light\n    //     uint button; // 1 button\n    // }\n\n    // struct display{\n    //     uint screen; // i lcd screen\n    // }\n\n    // struct battery{\n    //     uint controller; // 1 controller\n    // }\n\n\n    // assembling the doors\n    function assembleDoors(uint steel_panel, uint rails, uint sensor) public returns (uint){\n\n        require (steel_panel >= 2 && rails >= 2 && sensor >= 1);\n\n        client[steel_panel] = msg.sender;\n\n\n        return steel_panel;\n\n    } \n\n       // Retrieving the clients\n    function getClients() public view returns (address[1] memory) {\n        return client;\n    }\n\n\n    // // Adopting a pet\n    // function adopt(uint petId) public returns (uint) {\n    //     require(petId >= 0 && petId <= 15);\n\n    //     adopters[petId] = msg.sender;\n\n    //     return petId;\n    // }\n\n    // // Retrieving the adopters\n    // function getAdopters() public view returns (address[16] memory) {\n    //     return adopters;\n    // }\n\n\n\n}",
+  "sourcePath": "/home/anthonypageau/testweek12/Rocket_Elevators_Smart_Contracts/contracts/Manufacturing.sol",
   "ast": {
-    "absolutePath": "/home/mrcbilou/week12/contracts/Manufacturing.sol",
+    "absolutePath": "/home/anthonypageau/testweek12/Rocket_Elevators_Smart_Contracts/contracts/Manufacturing.sol",
     "exportedSymbols": {
       "Manufacturing": [
-        87
+        51
       ]
     },
-    "id": 88,
+    "id": 52,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -103,9 +103,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 87,
+        "id": 51,
         "linearizedBaseContracts": [
-          87
+          51
         ],
         "name": "Manufacturing",
         "nodeType": "ContractDefinition",
@@ -115,7 +115,7 @@
             "id": 5,
             "name": "client",
             "nodeType": "VariableDeclaration",
-            "scope": 87,
+            "scope": 51,
             "src": "59:24:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -165,480 +165,10 @@
             "visibility": "public"
           },
           {
-            "constant": false,
-            "id": 8,
-            "name": "steel_panel",
-            "nodeType": "VariableDeclaration",
-            "scope": 87,
-            "src": "124:21:0",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_uint256",
-              "typeString": "uint256"
-            },
-            "typeName": {
-              "id": 6,
-              "name": "uint",
-              "nodeType": "ElementaryTypeName",
-              "src": "124:4:0",
-              "typeDescriptions": {
-                "typeIdentifier": "t_uint256",
-                "typeString": "uint256"
-              }
-            },
-            "value": {
-              "argumentTypes": null,
-              "hexValue": "3336",
-              "id": 7,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "number",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "143:2:0",
-              "subdenomination": null,
-              "typeDescriptions": {
-                "typeIdentifier": "t_rational_36_by_1",
-                "typeString": "int_const 36"
-              },
-              "value": "36"
-            },
-            "visibility": "internal"
-          },
-          {
-            "constant": false,
-            "id": 11,
-            "name": "rails",
-            "nodeType": "VariableDeclaration",
-            "scope": 87,
-            "src": "152:15:0",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_uint256",
-              "typeString": "uint256"
-            },
-            "typeName": {
-              "id": 9,
-              "name": "uint",
-              "nodeType": "ElementaryTypeName",
-              "src": "152:4:0",
-              "typeDescriptions": {
-                "typeIdentifier": "t_uint256",
-                "typeString": "uint256"
-              }
-            },
-            "value": {
-              "argumentTypes": null,
-              "hexValue": "3336",
-              "id": 10,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "number",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "165:2:0",
-              "subdenomination": null,
-              "typeDescriptions": {
-                "typeIdentifier": "t_rational_36_by_1",
-                "typeString": "int_const 36"
-              },
-              "value": "36"
-            },
-            "visibility": "internal"
-          },
-          {
-            "constant": false,
-            "id": 14,
-            "name": "sensor",
-            "nodeType": "VariableDeclaration",
-            "scope": 87,
-            "src": "174:15:0",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_uint256",
-              "typeString": "uint256"
-            },
-            "typeName": {
-              "id": 12,
-              "name": "uint",
-              "nodeType": "ElementaryTypeName",
-              "src": "174:4:0",
-              "typeDescriptions": {
-                "typeIdentifier": "t_uint256",
-                "typeString": "uint256"
-              }
-            },
-            "value": {
-              "argumentTypes": null,
-              "hexValue": "38",
-              "id": 13,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "number",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "188:1:0",
-              "subdenomination": null,
-              "typeDescriptions": {
-                "typeIdentifier": "t_rational_8_by_1",
-                "typeString": "int_const 8"
-              },
-              "value": "8"
-            },
-            "visibility": "internal"
-          },
-          {
-            "canonicalName": "Manufacturing.doors",
-            "id": 21,
-            "members": [
-              {
-                "constant": false,
-                "id": 16,
-                "name": "steel_panel",
-                "nodeType": "VariableDeclaration",
-                "scope": 21,
-                "src": "284:16:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 15,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "284:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 18,
-                "name": "rails",
-                "nodeType": "VariableDeclaration",
-                "scope": 21,
-                "src": "328:10:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 17,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "328:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 20,
-                "name": "sensor",
-                "nodeType": "VariableDeclaration",
-                "scope": 21,
-                "src": "359:11:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 19,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "359:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "doors",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "261:128:0",
-            "visibility": "public"
-          },
-          {
-            "canonicalName": "Manufacturing.frame",
-            "id": 30,
-            "members": [
-              {
-                "constant": false,
-                "id": 23,
-                "name": "steelsheet",
-                "nodeType": "VariableDeclaration",
-                "scope": 30,
-                "src": "418:15:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 22,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "418:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 25,
-                "name": "pulley",
-                "nodeType": "VariableDeclaration",
-                "scope": 30,
-                "src": "462:11:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 24,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "462:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 27,
-                "name": "motor",
-                "nodeType": "VariableDeclaration",
-                "scope": 30,
-                "src": "496:10:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 26,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "496:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 29,
-                "name": "steelcable",
-                "nodeType": "VariableDeclaration",
-                "scope": 30,
-                "src": "528:15:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 28,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "528:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "frame",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "396:170:0",
-            "visibility": "public"
-          },
-          {
-            "canonicalName": "Manufacturing.button",
-            "id": 35,
-            "members": [
-              {
-                "constant": false,
-                "id": 32,
-                "name": "ledlight",
-                "nodeType": "VariableDeclaration",
-                "scope": 35,
-                "src": "595:13:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 31,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "595:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 34,
-                "name": "button",
-                "nodeType": "VariableDeclaration",
-                "scope": 35,
-                "src": "633:11:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 33,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "633:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "button",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "572:91:0",
-            "visibility": "public"
-          },
-          {
-            "canonicalName": "Manufacturing.display",
-            "id": 38,
-            "members": [
-              {
-                "constant": false,
-                "id": 37,
-                "name": "screen",
-                "nodeType": "VariableDeclaration",
-                "scope": 38,
-                "src": "693:11:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 36,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "693:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "display",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "669:58:0",
-            "visibility": "public"
-          },
-          {
-            "canonicalName": "Manufacturing.battery",
-            "id": 41,
-            "members": [
-              {
-                "constant": false,
-                "id": 40,
-                "name": "controller",
-                "nodeType": "VariableDeclaration",
-                "scope": 41,
-                "src": "757:15:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 39,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "757:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "battery",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "733:62:0",
-            "visibility": "public"
-          },
-          {
             "body": {
-              "id": 75,
+              "id": 39,
               "nodeType": "Block",
-              "src": "917:147:0",
+              "src": "995:147:0",
               "statements": [
                 {
                   "expression": {
@@ -650,7 +180,7 @@
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         },
-                        "id": 63,
+                        "id": 27,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -661,7 +191,7 @@
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           },
-                          "id": 59,
+                          "id": 23,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -672,19 +202,19 @@
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             },
-                            "id": 55,
+                            "id": 19,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "leftExpression": {
                               "argumentTypes": null,
-                              "id": 53,
+                              "id": 17,
                               "name": "steel_panel",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 43,
-                              "src": "937:11:0",
+                              "referencedDeclaration": 7,
+                              "src": "1015:11:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -695,14 +225,14 @@
                             "rightExpression": {
                               "argumentTypes": null,
                               "hexValue": "32",
-                              "id": 54,
+                              "id": 18,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
                               "kind": "number",
                               "lValueRequested": false,
                               "nodeType": "Literal",
-                              "src": "952:1:0",
+                              "src": "1030:1:0",
                               "subdenomination": null,
                               "typeDescriptions": {
                                 "typeIdentifier": "t_rational_2_by_1",
@@ -710,7 +240,7 @@
                               },
                               "value": "2"
                             },
-                            "src": "937:16:0",
+                            "src": "1015:16:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
@@ -724,19 +254,19 @@
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             },
-                            "id": 58,
+                            "id": 22,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "leftExpression": {
                               "argumentTypes": null,
-                              "id": 56,
+                              "id": 20,
                               "name": "rails",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 45,
-                              "src": "957:5:0",
+                              "referencedDeclaration": 9,
+                              "src": "1035:5:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -747,14 +277,14 @@
                             "rightExpression": {
                               "argumentTypes": null,
                               "hexValue": "32",
-                              "id": 57,
+                              "id": 21,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
                               "kind": "number",
                               "lValueRequested": false,
                               "nodeType": "Literal",
-                              "src": "966:1:0",
+                              "src": "1044:1:0",
                               "subdenomination": null,
                               "typeDescriptions": {
                                 "typeIdentifier": "t_rational_2_by_1",
@@ -762,13 +292,13 @@
                               },
                               "value": "2"
                             },
-                            "src": "957:10:0",
+                            "src": "1035:10:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
                             }
                           },
-                          "src": "937:30:0",
+                          "src": "1015:30:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -782,19 +312,19 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 62,
+                          "id": 26,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
                             "argumentTypes": null,
-                            "id": 60,
+                            "id": 24,
                             "name": "sensor",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 47,
-                            "src": "971:6:0",
+                            "referencedDeclaration": 11,
+                            "src": "1049:6:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -805,14 +335,14 @@
                           "rightExpression": {
                             "argumentTypes": null,
                             "hexValue": "31",
-                            "id": 61,
+                            "id": 25,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "981:1:0",
+                            "src": "1059:1:0",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_1_by_1",
@@ -820,13 +350,13 @@
                             },
                             "value": "1"
                           },
-                          "src": "971:11:0",
+                          "src": "1049:11:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "src": "937:45:0",
+                        "src": "1015:45:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -840,21 +370,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 52,
+                      "id": 16,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        138,
-                        139
+                        102,
+                        103
                       ],
-                      "referencedDeclaration": 138,
-                      "src": "928:7:0",
+                      "referencedDeclaration": 102,
+                      "src": "1006:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 64,
+                    "id": 28,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -862,20 +392,20 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "928:55:0",
+                    "src": "1006:55:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 65,
+                  "id": 29,
                   "nodeType": "ExpressionStatement",
-                  "src": "928:55:0"
+                  "src": "1006:55:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 71,
+                    "id": 35,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -884,26 +414,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 66,
+                        "id": 30,
                         "name": "client",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 5,
-                        "src": "994:6:0",
+                        "src": "1072:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$1_storage",
                           "typeString": "address[1] storage ref"
                         }
                       },
-                      "id": 68,
+                      "id": 32,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 67,
+                        "id": 31,
                         "name": "steel_panel",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 43,
-                        "src": "1001:11:0",
+                        "referencedDeclaration": 7,
+                        "src": "1079:11:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -914,7 +444,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "994:19:0",
+                      "src": "1072:19:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -926,18 +456,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 69,
+                        "id": 33,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 135,
-                        "src": "1016:3:0",
+                        "referencedDeclaration": 99,
+                        "src": "1094:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
-                      "id": 70,
+                      "id": 34,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -945,61 +475,61 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1016:10:0",
+                      "src": "1094:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
                         "typeString": "address payable"
                       }
                     },
-                    "src": "994:32:0",
+                    "src": "1072:32:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "id": 72,
+                  "id": 36,
                   "nodeType": "ExpressionStatement",
-                  "src": "994:32:0"
+                  "src": "1072:32:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 73,
+                    "id": 37,
                     "name": "steel_panel",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 43,
-                    "src": "1045:11:0",
+                    "referencedDeclaration": 7,
+                    "src": "1123:11:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 51,
-                  "id": 74,
+                  "functionReturnParameters": 15,
+                  "id": 38,
                   "nodeType": "Return",
-                  "src": "1038:18:0"
+                  "src": "1116:18:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 76,
+            "id": 40,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "assembleDoors",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 48,
+              "id": 12,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 43,
+                  "id": 7,
                   "name": "steel_panel",
                   "nodeType": "VariableDeclaration",
-                  "scope": 76,
-                  "src": "853:16:0",
+                  "scope": 40,
+                  "src": "931:16:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1007,10 +537,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 42,
+                    "id": 6,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "853:4:0",
+                    "src": "931:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1021,11 +551,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 45,
+                  "id": 9,
                   "name": "rails",
                   "nodeType": "VariableDeclaration",
-                  "scope": 76,
-                  "src": "871:10:0",
+                  "scope": 40,
+                  "src": "949:10:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1033,10 +563,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 44,
+                    "id": 8,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "871:4:0",
+                    "src": "949:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1047,11 +577,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 47,
+                  "id": 11,
                   "name": "sensor",
                   "nodeType": "VariableDeclaration",
-                  "scope": 76,
-                  "src": "883:11:0",
+                  "scope": 40,
+                  "src": "961:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1059,10 +589,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 46,
+                    "id": 10,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "883:4:0",
+                    "src": "961:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1072,19 +602,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "852:43:0"
+              "src": "930:43:0"
             },
             "returnParameters": {
-              "id": 51,
+              "id": 15,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50,
+                  "id": 14,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 76,
-                  "src": "912:4:0",
+                  "scope": 40,
+                  "src": "990:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1092,10 +622,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 49,
+                    "id": 13,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "912:4:0",
+                    "src": "990:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1105,65 +635,65 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "911:6:0"
+              "src": "989:6:0"
             },
-            "scope": 87,
-            "src": "830:234:0",
+            "scope": 51,
+            "src": "908:234:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 85,
+              "id": 49,
               "nodeType": "Block",
-              "src": "1166:30:0",
+              "src": "1244:30:0",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 83,
+                    "id": 47,
                     "name": "client",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 5,
-                    "src": "1183:6:0",
+                    "src": "1261:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$1_storage",
                       "typeString": "address[1] storage ref"
                     }
                   },
-                  "functionReturnParameters": 82,
-                  "id": 84,
+                  "functionReturnParameters": 46,
+                  "id": 48,
                   "nodeType": "Return",
-                  "src": "1176:13:0"
+                  "src": "1254:13:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 86,
+            "id": 50,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getClients",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 77,
+              "id": 41,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1123:2:0"
+              "src": "1201:2:0"
             },
             "returnParameters": {
-              "id": 82,
+              "id": 46,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 81,
+                  "id": 45,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 86,
-                  "src": "1147:17:0",
+                  "scope": 50,
+                  "src": "1225:17:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1172,28 +702,28 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 78,
+                      "id": 42,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
-                      "src": "1147:7:0",
+                      "src": "1225:7:0",
                       "stateMutability": "nonpayable",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "id": 80,
+                    "id": 44,
                     "length": {
                       "argumentTypes": null,
                       "hexValue": "31",
-                      "id": 79,
+                      "id": 43,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "1155:1:0",
+                      "src": "1233:1:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_1_by_1",
@@ -1202,7 +732,7 @@
                       "value": "1"
                     },
                     "nodeType": "ArrayTypeName",
-                    "src": "1147:10:0",
+                    "src": "1225:10:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$1_storage_ptr",
                       "typeString": "address[1]"
@@ -1212,29 +742,29 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1146:19:0"
+              "src": "1224:19:0"
             },
-            "scope": 87,
-            "src": "1104:92:0",
+            "scope": 51,
+            "src": "1182:92:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 88,
-        "src": "25:1530:0"
+        "scope": 52,
+        "src": "25:1608:0"
       }
     ],
-    "src": "0:1555:0"
+    "src": "0:1633:0"
   },
   "legacyAST": {
-    "absolutePath": "/home/mrcbilou/week12/contracts/Manufacturing.sol",
+    "absolutePath": "/home/anthonypageau/testweek12/Rocket_Elevators_Smart_Contracts/contracts/Manufacturing.sol",
     "exportedSymbols": {
       "Manufacturing": [
-        87
+        51
       ]
     },
-    "id": 88,
+    "id": 52,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -1254,9 +784,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 87,
+        "id": 51,
         "linearizedBaseContracts": [
-          87
+          51
         ],
         "name": "Manufacturing",
         "nodeType": "ContractDefinition",
@@ -1266,7 +796,7 @@
             "id": 5,
             "name": "client",
             "nodeType": "VariableDeclaration",
-            "scope": 87,
+            "scope": 51,
             "src": "59:24:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -1316,480 +846,10 @@
             "visibility": "public"
           },
           {
-            "constant": false,
-            "id": 8,
-            "name": "steel_panel",
-            "nodeType": "VariableDeclaration",
-            "scope": 87,
-            "src": "124:21:0",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_uint256",
-              "typeString": "uint256"
-            },
-            "typeName": {
-              "id": 6,
-              "name": "uint",
-              "nodeType": "ElementaryTypeName",
-              "src": "124:4:0",
-              "typeDescriptions": {
-                "typeIdentifier": "t_uint256",
-                "typeString": "uint256"
-              }
-            },
-            "value": {
-              "argumentTypes": null,
-              "hexValue": "3336",
-              "id": 7,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "number",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "143:2:0",
-              "subdenomination": null,
-              "typeDescriptions": {
-                "typeIdentifier": "t_rational_36_by_1",
-                "typeString": "int_const 36"
-              },
-              "value": "36"
-            },
-            "visibility": "internal"
-          },
-          {
-            "constant": false,
-            "id": 11,
-            "name": "rails",
-            "nodeType": "VariableDeclaration",
-            "scope": 87,
-            "src": "152:15:0",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_uint256",
-              "typeString": "uint256"
-            },
-            "typeName": {
-              "id": 9,
-              "name": "uint",
-              "nodeType": "ElementaryTypeName",
-              "src": "152:4:0",
-              "typeDescriptions": {
-                "typeIdentifier": "t_uint256",
-                "typeString": "uint256"
-              }
-            },
-            "value": {
-              "argumentTypes": null,
-              "hexValue": "3336",
-              "id": 10,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "number",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "165:2:0",
-              "subdenomination": null,
-              "typeDescriptions": {
-                "typeIdentifier": "t_rational_36_by_1",
-                "typeString": "int_const 36"
-              },
-              "value": "36"
-            },
-            "visibility": "internal"
-          },
-          {
-            "constant": false,
-            "id": 14,
-            "name": "sensor",
-            "nodeType": "VariableDeclaration",
-            "scope": 87,
-            "src": "174:15:0",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_uint256",
-              "typeString": "uint256"
-            },
-            "typeName": {
-              "id": 12,
-              "name": "uint",
-              "nodeType": "ElementaryTypeName",
-              "src": "174:4:0",
-              "typeDescriptions": {
-                "typeIdentifier": "t_uint256",
-                "typeString": "uint256"
-              }
-            },
-            "value": {
-              "argumentTypes": null,
-              "hexValue": "38",
-              "id": 13,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "number",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "188:1:0",
-              "subdenomination": null,
-              "typeDescriptions": {
-                "typeIdentifier": "t_rational_8_by_1",
-                "typeString": "int_const 8"
-              },
-              "value": "8"
-            },
-            "visibility": "internal"
-          },
-          {
-            "canonicalName": "Manufacturing.doors",
-            "id": 21,
-            "members": [
-              {
-                "constant": false,
-                "id": 16,
-                "name": "steel_panel",
-                "nodeType": "VariableDeclaration",
-                "scope": 21,
-                "src": "284:16:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 15,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "284:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 18,
-                "name": "rails",
-                "nodeType": "VariableDeclaration",
-                "scope": 21,
-                "src": "328:10:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 17,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "328:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 20,
-                "name": "sensor",
-                "nodeType": "VariableDeclaration",
-                "scope": 21,
-                "src": "359:11:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 19,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "359:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "doors",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "261:128:0",
-            "visibility": "public"
-          },
-          {
-            "canonicalName": "Manufacturing.frame",
-            "id": 30,
-            "members": [
-              {
-                "constant": false,
-                "id": 23,
-                "name": "steelsheet",
-                "nodeType": "VariableDeclaration",
-                "scope": 30,
-                "src": "418:15:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 22,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "418:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 25,
-                "name": "pulley",
-                "nodeType": "VariableDeclaration",
-                "scope": 30,
-                "src": "462:11:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 24,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "462:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 27,
-                "name": "motor",
-                "nodeType": "VariableDeclaration",
-                "scope": 30,
-                "src": "496:10:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 26,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "496:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 29,
-                "name": "steelcable",
-                "nodeType": "VariableDeclaration",
-                "scope": 30,
-                "src": "528:15:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 28,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "528:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "frame",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "396:170:0",
-            "visibility": "public"
-          },
-          {
-            "canonicalName": "Manufacturing.button",
-            "id": 35,
-            "members": [
-              {
-                "constant": false,
-                "id": 32,
-                "name": "ledlight",
-                "nodeType": "VariableDeclaration",
-                "scope": 35,
-                "src": "595:13:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 31,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "595:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              },
-              {
-                "constant": false,
-                "id": 34,
-                "name": "button",
-                "nodeType": "VariableDeclaration",
-                "scope": 35,
-                "src": "633:11:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 33,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "633:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "button",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "572:91:0",
-            "visibility": "public"
-          },
-          {
-            "canonicalName": "Manufacturing.display",
-            "id": 38,
-            "members": [
-              {
-                "constant": false,
-                "id": 37,
-                "name": "screen",
-                "nodeType": "VariableDeclaration",
-                "scope": 38,
-                "src": "693:11:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 36,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "693:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "display",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "669:58:0",
-            "visibility": "public"
-          },
-          {
-            "canonicalName": "Manufacturing.battery",
-            "id": 41,
-            "members": [
-              {
-                "constant": false,
-                "id": 40,
-                "name": "controller",
-                "nodeType": "VariableDeclaration",
-                "scope": 41,
-                "src": "757:15:0",
-                "stateVariable": false,
-                "storageLocation": "default",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_uint256",
-                  "typeString": "uint256"
-                },
-                "typeName": {
-                  "id": 39,
-                  "name": "uint",
-                  "nodeType": "ElementaryTypeName",
-                  "src": "757:4:0",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_uint256",
-                    "typeString": "uint256"
-                  }
-                },
-                "value": null,
-                "visibility": "internal"
-              }
-            ],
-            "name": "battery",
-            "nodeType": "StructDefinition",
-            "scope": 87,
-            "src": "733:62:0",
-            "visibility": "public"
-          },
-          {
             "body": {
-              "id": 75,
+              "id": 39,
               "nodeType": "Block",
-              "src": "917:147:0",
+              "src": "995:147:0",
               "statements": [
                 {
                   "expression": {
@@ -1801,7 +861,7 @@
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         },
-                        "id": 63,
+                        "id": 27,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1812,7 +872,7 @@
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           },
-                          "id": 59,
+                          "id": 23,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1823,19 +883,19 @@
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             },
-                            "id": 55,
+                            "id": 19,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "leftExpression": {
                               "argumentTypes": null,
-                              "id": 53,
+                              "id": 17,
                               "name": "steel_panel",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 43,
-                              "src": "937:11:0",
+                              "referencedDeclaration": 7,
+                              "src": "1015:11:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1846,14 +906,14 @@
                             "rightExpression": {
                               "argumentTypes": null,
                               "hexValue": "32",
-                              "id": 54,
+                              "id": 18,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
                               "kind": "number",
                               "lValueRequested": false,
                               "nodeType": "Literal",
-                              "src": "952:1:0",
+                              "src": "1030:1:0",
                               "subdenomination": null,
                               "typeDescriptions": {
                                 "typeIdentifier": "t_rational_2_by_1",
@@ -1861,7 +921,7 @@
                               },
                               "value": "2"
                             },
-                            "src": "937:16:0",
+                            "src": "1015:16:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
@@ -1875,19 +935,19 @@
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             },
-                            "id": 58,
+                            "id": 22,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "leftExpression": {
                               "argumentTypes": null,
-                              "id": 56,
+                              "id": 20,
                               "name": "rails",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 45,
-                              "src": "957:5:0",
+                              "referencedDeclaration": 9,
+                              "src": "1035:5:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1898,14 +958,14 @@
                             "rightExpression": {
                               "argumentTypes": null,
                               "hexValue": "32",
-                              "id": 57,
+                              "id": 21,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
                               "kind": "number",
                               "lValueRequested": false,
                               "nodeType": "Literal",
-                              "src": "966:1:0",
+                              "src": "1044:1:0",
                               "subdenomination": null,
                               "typeDescriptions": {
                                 "typeIdentifier": "t_rational_2_by_1",
@@ -1913,13 +973,13 @@
                               },
                               "value": "2"
                             },
-                            "src": "957:10:0",
+                            "src": "1035:10:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
                             }
                           },
-                          "src": "937:30:0",
+                          "src": "1015:30:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -1933,19 +993,19 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 62,
+                          "id": 26,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
                             "argumentTypes": null,
-                            "id": 60,
+                            "id": 24,
                             "name": "sensor",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 47,
-                            "src": "971:6:0",
+                            "referencedDeclaration": 11,
+                            "src": "1049:6:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1956,14 +1016,14 @@
                           "rightExpression": {
                             "argumentTypes": null,
                             "hexValue": "31",
-                            "id": 61,
+                            "id": 25,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
                             "kind": "number",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "981:1:0",
+                            "src": "1059:1:0",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_rational_1_by_1",
@@ -1971,13 +1031,13 @@
                             },
                             "value": "1"
                           },
-                          "src": "971:11:0",
+                          "src": "1049:11:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "src": "937:45:0",
+                        "src": "1015:45:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1991,21 +1051,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 52,
+                      "id": 16,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        138,
-                        139
+                        102,
+                        103
                       ],
-                      "referencedDeclaration": 138,
-                      "src": "928:7:0",
+                      "referencedDeclaration": 102,
+                      "src": "1006:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 64,
+                    "id": 28,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2013,20 +1073,20 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "928:55:0",
+                    "src": "1006:55:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 65,
+                  "id": 29,
                   "nodeType": "ExpressionStatement",
-                  "src": "928:55:0"
+                  "src": "1006:55:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 71,
+                    "id": 35,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2035,26 +1095,26 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 66,
+                        "id": 30,
                         "name": "client",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 5,
-                        "src": "994:6:0",
+                        "src": "1072:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$1_storage",
                           "typeString": "address[1] storage ref"
                         }
                       },
-                      "id": 68,
+                      "id": 32,
                       "indexExpression": {
                         "argumentTypes": null,
-                        "id": 67,
+                        "id": 31,
                         "name": "steel_panel",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 43,
-                        "src": "1001:11:0",
+                        "referencedDeclaration": 7,
+                        "src": "1079:11:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2065,7 +1125,7 @@
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "IndexAccess",
-                      "src": "994:19:0",
+                      "src": "1072:19:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -2077,18 +1137,18 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 69,
+                        "id": 33,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 135,
-                        "src": "1016:3:0",
+                        "referencedDeclaration": 99,
+                        "src": "1094:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
                           "typeString": "msg"
                         }
                       },
-                      "id": 70,
+                      "id": 34,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2096,61 +1156,61 @@
                       "memberName": "sender",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1016:10:0",
+                      "src": "1094:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address_payable",
                         "typeString": "address payable"
                       }
                     },
-                    "src": "994:32:0",
+                    "src": "1072:32:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "id": 72,
+                  "id": 36,
                   "nodeType": "ExpressionStatement",
-                  "src": "994:32:0"
+                  "src": "1072:32:0"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 73,
+                    "id": 37,
                     "name": "steel_panel",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 43,
-                    "src": "1045:11:0",
+                    "referencedDeclaration": 7,
+                    "src": "1123:11:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 51,
-                  "id": 74,
+                  "functionReturnParameters": 15,
+                  "id": 38,
                   "nodeType": "Return",
-                  "src": "1038:18:0"
+                  "src": "1116:18:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 76,
+            "id": 40,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "assembleDoors",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 48,
+              "id": 12,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 43,
+                  "id": 7,
                   "name": "steel_panel",
                   "nodeType": "VariableDeclaration",
-                  "scope": 76,
-                  "src": "853:16:0",
+                  "scope": 40,
+                  "src": "931:16:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2158,10 +1218,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 42,
+                    "id": 6,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "853:4:0",
+                    "src": "931:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2172,11 +1232,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 45,
+                  "id": 9,
                   "name": "rails",
                   "nodeType": "VariableDeclaration",
-                  "scope": 76,
-                  "src": "871:10:0",
+                  "scope": 40,
+                  "src": "949:10:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2184,10 +1244,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 44,
+                    "id": 8,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "871:4:0",
+                    "src": "949:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2198,11 +1258,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 47,
+                  "id": 11,
                   "name": "sensor",
                   "nodeType": "VariableDeclaration",
-                  "scope": 76,
-                  "src": "883:11:0",
+                  "scope": 40,
+                  "src": "961:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2210,10 +1270,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 46,
+                    "id": 10,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "883:4:0",
+                    "src": "961:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2223,19 +1283,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "852:43:0"
+              "src": "930:43:0"
             },
             "returnParameters": {
-              "id": 51,
+              "id": 15,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 50,
+                  "id": 14,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 76,
-                  "src": "912:4:0",
+                  "scope": 40,
+                  "src": "990:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2243,10 +1303,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 49,
+                    "id": 13,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "912:4:0",
+                    "src": "990:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2256,65 +1316,65 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "911:6:0"
+              "src": "989:6:0"
             },
-            "scope": 87,
-            "src": "830:234:0",
+            "scope": 51,
+            "src": "908:234:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 85,
+              "id": 49,
               "nodeType": "Block",
-              "src": "1166:30:0",
+              "src": "1244:30:0",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 83,
+                    "id": 47,
                     "name": "client",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 5,
-                    "src": "1183:6:0",
+                    "src": "1261:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$1_storage",
                       "typeString": "address[1] storage ref"
                     }
                   },
-                  "functionReturnParameters": 82,
-                  "id": 84,
+                  "functionReturnParameters": 46,
+                  "id": 48,
                   "nodeType": "Return",
-                  "src": "1176:13:0"
+                  "src": "1254:13:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 86,
+            "id": 50,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "getClients",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 77,
+              "id": 41,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1123:2:0"
+              "src": "1201:2:0"
             },
             "returnParameters": {
-              "id": 82,
+              "id": 46,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 81,
+                  "id": 45,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 86,
-                  "src": "1147:17:0",
+                  "scope": 50,
+                  "src": "1225:17:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -2323,28 +1383,28 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 78,
+                      "id": 42,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
-                      "src": "1147:7:0",
+                      "src": "1225:7:0",
                       "stateMutability": "nonpayable",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "id": 80,
+                    "id": 44,
                     "length": {
                       "argumentTypes": null,
                       "hexValue": "31",
-                      "id": 79,
+                      "id": 43,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "1155:1:0",
+                      "src": "1233:1:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_1_by_1",
@@ -2353,7 +1413,7 @@
                       "value": "1"
                     },
                     "nodeType": "ArrayTypeName",
-                    "src": "1147:10:0",
+                    "src": "1225:10:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_array$_t_address_$1_storage_ptr",
                       "typeString": "address[1]"
@@ -2363,20 +1423,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1146:19:0"
+              "src": "1224:19:0"
             },
-            "scope": 87,
-            "src": "1104:92:0",
+            "scope": 51,
+            "src": "1182:92:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 88,
-        "src": "25:1530:0"
+        "scope": 52,
+        "src": "25:1608:0"
       }
     ],
-    "src": "0:1555:0"
+    "src": "0:1633:0"
   },
   "compiler": {
     "name": "solc",
@@ -2386,13 +1446,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x4C1197A62A9152788359FF1a43fc819193C44ac2",
-      "transactionHash": "0x3503158f07024007c143ec9ca4152f15fae4d04d82fade707e356751cb243910"
+      "address": "0x8f00eEE510FB00cE4a7D114166FCa962d69BfD74",
+      "transactionHash": "0x82515243abf1156bfa6ed552f9bbd522deddc2ac465f3ce1d70ea8cbc87b0846"
     }
   },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-08T00:14:16.782Z",
-  "networkType": "ethereum",
+  "updatedAt": "2020-12-07T21:57:43.395Z",
   "devdoc": {
     "methods": {}
   },
