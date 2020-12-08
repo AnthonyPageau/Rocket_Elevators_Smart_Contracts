@@ -3,7 +3,7 @@ App = {
   contracts: {},
 
   init: async function() {
-    // Load pets.
+    // Load doors.
     $.getJSON('../doors.json', function(data) {
       var doorsRow = $('#doorsRow');
       var doors_template = $('#doors_template');
@@ -12,7 +12,7 @@ App = {
         doors_template.find('.steel_panel').text(data[i].steel_panel);
         doors_template.find('.rails').text( data[i].rails);
         doors_template.find('.sensor').text(data[i].sensor);
-        doors_template.find('.btn-adopt').attr('data-id', data[i].id);
+        doors_template.find('.btn-assemble').attr('data-id', data[i].id);
 
         doorsRow.append(doors_template.html());
       }
@@ -63,7 +63,7 @@ App = {
   },
 
   bindEvents: function() {
-    $(document).on('click', '.btn-adopt', App.handleDoorAssembly);
+    $(document).on('click', '.btn-assemble', App.handleDoorAssembly);
   },
 
   markDoorAssembled: function() {
@@ -72,7 +72,7 @@ App = {
     App.contracts.Manufacturing.deployed().then(function(instance) {
       doorAssemblyInstance = instance;
 
-      return doorAssemblyInstance.getClients.call();
+    return doorAssemblyInstance.getDoors.call();
     }).then(function(clients) {
       for (i = 0; i < clients.length; i++) {
         if (clients[i] !== '0x0000000000000000000000000000000000000000') {
@@ -104,7 +104,7 @@ App = {
         // Execute adopt as a transaction by sending account
         return doorAssemblyInstance.assembleDoors(steel_panel, {from: account});
       }).then(function(result) {
-        return App.markDoorAssembled();
+        return App.markDoorAssembled(result);
       }).catch(function(err) {
         console.log(err.message);
       });

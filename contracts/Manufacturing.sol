@@ -4,6 +4,7 @@ pragma experimental ABIEncoderV2;
 
 contract Ballot {
     
+    
     mapping (string => uint256) public materials;
     
      struct Product {
@@ -38,8 +39,9 @@ contract Ballot {
     }
     
     Product productStruct;
-    Product[] productList;
-    
+    Product[] productList;    
+    address[1] public clients;
+
     constructor() public {
         
         materials["steel_panel"] = 36;
@@ -59,7 +61,6 @@ contract Ballot {
         Door memory door1 = Door(2, 2, 1);
         numDoors = materials["steel_panel"] /= door1.steel_panel;
         productStruct.Name = "Door";
-        productStruct.Quantity = numDoors;
         productStruct.Quantity = numDoors;
         productList.push(productStruct);
         return numDoors;
