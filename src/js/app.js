@@ -111,7 +111,7 @@ App = {
         assemblyInstance = instance;
     
         // Execute adopt as a transaction by sending account
-        return assemblyInstance.getDoors();
+        return assemblyInstance.getProducts();
       }).then(function(result) {
         return App.markAssembled();
       }).catch(function(err) {
