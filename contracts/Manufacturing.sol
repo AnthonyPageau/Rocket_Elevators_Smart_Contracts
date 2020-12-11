@@ -2,12 +2,14 @@
 pragma solidity >=0.4.22 <0.8.0;
 pragma experimental ABIEncoderV2;
 
+import "./otherContract.sol";
+
 contract Manufacturing {
     
     
     mapping (string => uint256) public materials;
     
-     struct Product {
+    struct Product {
         string Name;
         uint256 Quantity;
     }
@@ -59,8 +61,13 @@ contract Manufacturing {
         //battery
         materials["controller"] = 1; //1 per battery
     }
-    
+
+    //create doors
     function doors() public returns (uint256 numDoors) {
+        require(materials["steel_panel"] >= 2 && materials["rails"] >= 2 && materials["sensor"] >= 2); 
+        // if (materials["steel_panel"] == 0 && materials["rails"] == 0 && materials["sensor"] == 0) {
+        //     return 0;
+        // }
         Door memory door1 = Door(2, 2, 1);
         numDoors = materials["steel_panel"] /= door1.steel_panel;
         productStruct.Name = "Door";
@@ -69,7 +76,12 @@ contract Manufacturing {
         return numDoors;
     }
 
+    //create frames
     function frames() public returns (uint256 numFrames) {
+        require (materials["steel_sheet"] >= 10 && materials["pulley"] >= 2 && materials["motor"] == 2 && materials["steelcable"] == 2);
+        // if (materials["steel_sheet"] == 0 && materials["pulley"] == 0 && materials["motor"] == 0 && materials["steelcable"] == 0) {
+        //     return 0;
+        // }
         Frame memory frame1 = Frame(10, 2, 2, 2);
         numFrames = materials["steel_sheet"] /= frame1.steel_sheet;
         productStruct.Name = "Frame";
@@ -78,7 +90,12 @@ contract Manufacturing {
         return numFrames;
     }
 
+    //create buttons
     function buttons() public returns (uint256 numButtons) {
+        require (materials["button"] >= 2 && materials["ledlight"] >= 2);
+        // if (materials["button"] == 0 && materials["ledlight"] == 0) {
+        //     return 0;
+        // }
         Button memory button1 = Button(1, 1);
         numButtons = materials["button"] /= button1.button;
         productStruct.Name = "Button";
@@ -87,8 +104,12 @@ contract Manufacturing {
         return numButtons;
     }
 
-
+    // create display
     function display() public returns (uint256 numDisplay){
+        require (materials["screen"] >= 1);
+        // if (materials["screen"] >= 1) {
+        //     return 0;
+        // }
         Display memory display1 = Display(1);
         numDisplay = materials["screen"] /= display1.screen;
         productStruct.Name = "Screen";
@@ -98,8 +119,12 @@ contract Manufacturing {
     }
 
     
-
+    // create batteries
     function batteries() public returns (uint256 numBattery){
+        require (materials["controller"] >= 1);
+        // if (materials["controller"] >= 1){
+        //     return 0;
+        // }
         Battery memory battery1 = Battery(1);
         numBattery = materials["controller"] /= battery1.controller;
         productStruct.Name = "Battery";
