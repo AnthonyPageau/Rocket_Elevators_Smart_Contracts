@@ -1,0 +1,598 @@
+{
+  "contractName": "otherContract",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "leurFonction",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "material",
+              "type": "string"
+            },
+            {
+              "internalType": "uint64",
+              "name": "quantity",
+              "type": "uint64"
+            }
+          ],
+          "internalType": "struct otherContract.Material[]",
+          "name": "material",
+          "type": "tuple[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"leurFonction\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"material\",\"type\":\"string\"},{\"internalType\":\"uint64\",\"name\":\"quantity\",\"type\":\"uint64\"}],\"internalType\":\"struct otherContract.Material[]\",\"name\":\"material\",\"type\":\"tuple[]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/User/vendredi1/Rocket_Elevators_Smart_Contracts/contracts/otherContract.sol\":\"otherContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/User/vendredi1/Rocket_Elevators_Smart_Contracts/contracts/otherContract.sol\":{\"keccak256\":\"0xdd67166039c76374b86c991ee878d1e938c1cb27503307a4a59eacc06a2d2bce\",\"urls\":[\"bzz-raw://ce7a213e6f57d1269ca8948b2cc342a8c73dcc257ee8540048f5728fa0759c19\",\"dweb:/ipfs/QmcJibREhg8vzqTz4XnFvUCnFc1barhSzNcng5wDsqTGjU\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506103a1806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c80632add789014610030575b600080fd5b61003861004e565b604051610045919061028f565b60405180910390f35b60606002805480602002602001604051908101604052809291908181526020016000905b828210156101785783829060005260206000209060020201604051806040016040529081600082018054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561012e5780601f106101035761010080835404028352916020019161012e565b820191906000526020600020905b81548152906001019060200180831161011157829003601f168201915b505050505081526020016001820160009054906101000a900467ffffffffffffffff1667ffffffffffffffff1667ffffffffffffffff168152505081526020019060010190610072565b50505050905090565b600061018d8383610243565b905092915050565b60006101a0826102c1565b6101aa81856102e4565b9350836020820285016101bc856102b1565b8060005b858110156101f857848403895281516101d98582610181565b94506101e4836102d7565b925060208a019950506001810190506101c0565b50829750879550505050505092915050565b6000610215826102cc565b61021f81856102f5565b935061022f81856020860161031a565b6102388161034d565b840191505092915050565b60006040830160008301518482036000860152610260828261020a565b91505060208301516102756020860182610280565b508091505092915050565b61028981610306565b82525050565b600060208201905081810360008301526102a98184610195565b905092915050565b6000819050602082019050919050565b600081519050919050565b600081519050919050565b6000602082019050919050565b600082825260208201905092915050565b600082825260208201905092915050565b600067ffffffffffffffff82169050919050565b60005b8381101561033857808201518184015260208101905061031d565b83811115610347576000848401525b50505050565b6000601f19601f830116905091905056fea365627a7a7231582006da1b8640ee8417f3c958be84fac07b1286c8ca2ce90dbf47e3666d0f6f0bd26c6578706572696d656e74616cf564736f6c63430005100040",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c80632add789014610030575b600080fd5b61003861004e565b604051610045919061028f565b60405180910390f35b60606002805480602002602001604051908101604052809291908181526020016000905b828210156101785783829060005260206000209060020201604051806040016040529081600082018054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561012e5780601f106101035761010080835404028352916020019161012e565b820191906000526020600020905b81548152906001019060200180831161011157829003601f168201915b505050505081526020016001820160009054906101000a900467ffffffffffffffff1667ffffffffffffffff1667ffffffffffffffff168152505081526020019060010190610072565b50505050905090565b600061018d8383610243565b905092915050565b60006101a0826102c1565b6101aa81856102e4565b9350836020820285016101bc856102b1565b8060005b858110156101f857848403895281516101d98582610181565b94506101e4836102d7565b925060208a019950506001810190506101c0565b50829750879550505050505092915050565b6000610215826102cc565b61021f81856102f5565b935061022f81856020860161031a565b6102388161034d565b840191505092915050565b60006040830160008301518482036000860152610260828261020a565b91505060208301516102756020860182610280565b508091505092915050565b61028981610306565b82525050565b600060208201905081810360008301526102a98184610195565b905092915050565b6000819050602082019050919050565b600081519050919050565b600081519050919050565b6000602082019050919050565b600082825260208201905092915050565b600082825260208201905092915050565b600067ffffffffffffffff82169050919050565b60005b8381101561033857808201518184015260208101905061031d565b83811115610347576000848401525b50505050565b6000601f19601f830116905091905056fea365627a7a7231582006da1b8640ee8417f3c958be84fac07b1286c8ca2ce90dbf47e3666d0f6f0bd26c6578706572696d656e74616cf564736f6c63430005100040",
+  "sourceMap": "104:300:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;104:300:2;;;;;;;",
+  "deployedSourceMap": "104:300:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;104:300:2;;;;;;;;;;;;;;;;;;;292:107;;;:::i;:::-;;;;;;;;;;;;;;;;;337:26;383:8;376:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;292:107;:::o;6:241:-1:-;;149:92;237:3;229:6;149:92;;;135:106;;128:119;;;;;330:1016;;517:75;586:5;517:75;;;605:107;705:6;700:3;605:107;;;598:114;;735:3;777:4;769:6;765:17;760:3;756:27;804:77;875:5;804:77;;;901:7;929:1;914:393;939:6;936:1;933:13;914:393;;;1001:9;995:4;991:20;986:3;979:33;1046:6;1040:13;1068:106;1169:4;1154:13;1068:106;;;1060:114;;1191:81;1265:6;1191:81;;;1181:91;;1295:4;1290:3;1286:14;1279:21;;971:336;961:1;958;954:9;949:14;;914:393;;;918:14;1320:4;1313:11;;1337:3;1330:10;;496:850;;;;;;;;;;1354:319;;1452:35;1481:5;1452:35;;;1499:61;1553:6;1548:3;1499:61;;;1492:68;;1565:52;1610:6;1605:3;1598:4;1591:5;1587:16;1565:52;;;1638:29;1660:6;1638:29;;;1633:3;1629:39;1622:46;;1432:241;;;;;;1749:559;;1886:4;1881:3;1877:14;1973:4;1966:5;1962:16;1956:23;2025:3;2019:4;2015:14;2008:4;2003:3;1999:14;1992:38;2045:69;2109:4;2095:12;2045:69;;;2037:77;;1906:220;2203:4;2196:5;2192:16;2186:23;2215:61;2270:4;2265:3;2261:14;2247:12;2215:61;;;2136:146;2299:4;2292:11;;1859:449;;;;;;2315:100;2386:23;2403:5;2386:23;;;2381:3;2374:36;2368:47;;;2422:445;;2632:2;2621:9;2617:18;2609:26;;2682:9;2676:4;2672:20;2668:1;2657:9;2653:17;2646:47;2707:150;2852:4;2843:6;2707:150;;;2699:158;;2603:264;;;;;2874:172;;2981:3;2973:11;;3019:4;3014:3;3010:14;3002:22;;2967:79;;;;3053:158;;3183:5;3177:12;3167:22;;3148:63;;;;3218:118;;3308:5;3302:12;3292:22;;3273:63;;;;3343:129;;3462:4;3457:3;3453:14;3445:22;;3439:33;;;;3480:199;;3631:6;3626:3;3619:19;3668:4;3663:3;3659:14;3644:29;;3612:67;;;;;3688:153;;3793:6;3788:3;3781:19;3830:4;3825:3;3821:14;3806:29;;3774:67;;;;;3849:96;;3921:18;3914:5;3910:30;3899:41;;3893:52;;;;3953:268;4018:1;4025:101;4039:6;4036:1;4033:13;4025:101;;;4115:1;4110:3;4106:11;4100:18;4096:1;4091:3;4087:11;4080:39;4061:2;4058:1;4054:10;4049:15;;4025:101;;;4141:6;4138:1;4135:13;4132:2;;;4206:1;4197:6;4192:3;4188:16;4181:27;4132:2;4002:219;;;;;4229:97;;4317:2;4313:7;4308:2;4301:5;4297:14;4293:28;4283:38;;4277:49;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.8.0;\r\npragma experimental ABIEncoderV2;\r\n\r\ncontract otherContract {\r\n\r\n     struct Material {\r\n        string material;\r\n        uint64 quantity;\r\n    }\r\n   \r\n\r\n    Material materialStruct;\r\n    Material[] private LeurList;\r\n\r\n    function leurFonction() public view returns (Material[] memory material) {\r\n        return LeurList;\r\n    }\r\n\r\n}",
+  "sourcePath": "C:\\Users\\User\\vendredi1\\Rocket_Elevators_Smart_Contracts\\contracts\\otherContract.sol",
+  "ast": {
+    "absolutePath": "/C/Users/User/vendredi1/Rocket_Elevators_Smart_Contracts/contracts/otherContract.sol",
+    "exportedSymbols": {
+      "otherContract": [
+        518
+      ]
+    },
+    "id": 519,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 497,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:2"
+      },
+      {
+        "id": 498,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "67:33:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 518,
+        "linearizedBaseContracts": [
+          518
+        ],
+        "name": "otherContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "otherContract.Material",
+            "id": 503,
+            "members": [
+              {
+                "constant": false,
+                "id": 500,
+                "name": "material",
+                "nodeType": "VariableDeclaration",
+                "scope": 503,
+                "src": "164:15:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 499,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "164:6:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 502,
+                "name": "quantity",
+                "nodeType": "VariableDeclaration",
+                "scope": 503,
+                "src": "190:15:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint64",
+                  "typeString": "uint64"
+                },
+                "typeName": {
+                  "id": 501,
+                  "name": "uint64",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "190:6:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint64",
+                    "typeString": "uint64"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Material",
+            "nodeType": "StructDefinition",
+            "scope": 518,
+            "src": "137:76:2",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 505,
+            "name": "materialStruct",
+            "nodeType": "VariableDeclaration",
+            "scope": 518,
+            "src": "226:23:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_Material_$503_storage",
+              "typeString": "struct otherContract.Material"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 504,
+              "name": "Material",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 503,
+              "src": "226:8:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_Material_$503_storage_ptr",
+                "typeString": "struct otherContract.Material"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 508,
+            "name": "LeurList",
+            "nodeType": "VariableDeclaration",
+            "scope": 518,
+            "src": "256:27:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_struct$_Material_$503_storage_$dyn_storage",
+              "typeString": "struct otherContract.Material[]"
+            },
+            "typeName": {
+              "baseType": {
+                "contractScope": null,
+                "id": 506,
+                "name": "Material",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 503,
+                "src": "256:8:2",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Material_$503_storage_ptr",
+                  "typeString": "struct otherContract.Material"
+                }
+              },
+              "id": 507,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "256:10:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_struct$_Material_$503_storage_$dyn_storage_ptr",
+                "typeString": "struct otherContract.Material[]"
+              }
+            },
+            "value": null,
+            "visibility": "private"
+          },
+          {
+            "body": {
+              "id": 516,
+              "nodeType": "Block",
+              "src": "365:34:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 514,
+                    "name": "LeurList",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 508,
+                    "src": "383:8:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_struct$_Material_$503_storage_$dyn_storage",
+                      "typeString": "struct otherContract.Material storage ref[] storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 513,
+                  "id": 515,
+                  "nodeType": "Return",
+                  "src": "376:15:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 517,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "leurFonction",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 509,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "313:2:2"
+            },
+            "returnParameters": {
+              "id": 513,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 512,
+                  "name": "material",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 517,
+                  "src": "337:26:2",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_struct$_Material_$503_memory_$dyn_memory_ptr",
+                    "typeString": "struct otherContract.Material[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 510,
+                      "name": "Material",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 503,
+                      "src": "337:8:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Material_$503_storage_ptr",
+                        "typeString": "struct otherContract.Material"
+                      }
+                    },
+                    "id": 511,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "337:10:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_struct$_Material_$503_storage_$dyn_storage_ptr",
+                      "typeString": "struct otherContract.Material[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "336:28:2"
+            },
+            "scope": 518,
+            "src": "292:107:2",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 519,
+        "src": "104:300:2"
+      }
+    ],
+    "src": "33:371:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/User/vendredi1/Rocket_Elevators_Smart_Contracts/contracts/otherContract.sol",
+    "exportedSymbols": {
+      "otherContract": [
+        518
+      ]
+    },
+    "id": 519,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 497,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:2"
+      },
+      {
+        "id": 498,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "67:33:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 518,
+        "linearizedBaseContracts": [
+          518
+        ],
+        "name": "otherContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "otherContract.Material",
+            "id": 503,
+            "members": [
+              {
+                "constant": false,
+                "id": 500,
+                "name": "material",
+                "nodeType": "VariableDeclaration",
+                "scope": 503,
+                "src": "164:15:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 499,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "164:6:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 502,
+                "name": "quantity",
+                "nodeType": "VariableDeclaration",
+                "scope": 503,
+                "src": "190:15:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint64",
+                  "typeString": "uint64"
+                },
+                "typeName": {
+                  "id": 501,
+                  "name": "uint64",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "190:6:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint64",
+                    "typeString": "uint64"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Material",
+            "nodeType": "StructDefinition",
+            "scope": 518,
+            "src": "137:76:2",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 505,
+            "name": "materialStruct",
+            "nodeType": "VariableDeclaration",
+            "scope": 518,
+            "src": "226:23:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_Material_$503_storage",
+              "typeString": "struct otherContract.Material"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 504,
+              "name": "Material",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 503,
+              "src": "226:8:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_Material_$503_storage_ptr",
+                "typeString": "struct otherContract.Material"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 508,
+            "name": "LeurList",
+            "nodeType": "VariableDeclaration",
+            "scope": 518,
+            "src": "256:27:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_struct$_Material_$503_storage_$dyn_storage",
+              "typeString": "struct otherContract.Material[]"
+            },
+            "typeName": {
+              "baseType": {
+                "contractScope": null,
+                "id": 506,
+                "name": "Material",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 503,
+                "src": "256:8:2",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Material_$503_storage_ptr",
+                  "typeString": "struct otherContract.Material"
+                }
+              },
+              "id": 507,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "256:10:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_struct$_Material_$503_storage_$dyn_storage_ptr",
+                "typeString": "struct otherContract.Material[]"
+              }
+            },
+            "value": null,
+            "visibility": "private"
+          },
+          {
+            "body": {
+              "id": 516,
+              "nodeType": "Block",
+              "src": "365:34:2",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 514,
+                    "name": "LeurList",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 508,
+                    "src": "383:8:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_struct$_Material_$503_storage_$dyn_storage",
+                      "typeString": "struct otherContract.Material storage ref[] storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 513,
+                  "id": 515,
+                  "nodeType": "Return",
+                  "src": "376:15:2"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 517,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "leurFonction",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 509,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "313:2:2"
+            },
+            "returnParameters": {
+              "id": 513,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 512,
+                  "name": "material",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 517,
+                  "src": "337:26:2",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_struct$_Material_$503_memory_$dyn_memory_ptr",
+                    "typeString": "struct otherContract.Material[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "contractScope": null,
+                      "id": 510,
+                      "name": "Material",
+                      "nodeType": "UserDefinedTypeName",
+                      "referencedDeclaration": 503,
+                      "src": "337:8:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Material_$503_storage_ptr",
+                        "typeString": "struct otherContract.Material"
+                      }
+                    },
+                    "id": 511,
+                    "length": null,
+                    "nodeType": "ArrayTypeName",
+                    "src": "337:10:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_struct$_Material_$503_storage_$dyn_storage_ptr",
+                      "typeString": "struct otherContract.Material[]"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "336:28:2"
+            },
+            "scope": 518,
+            "src": "292:107:2",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 519,
+        "src": "104:300:2"
+      }
+    ],
+    "src": "33:371:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2020-12-11T21:00:54.951Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
