@@ -140,6 +140,7 @@ contract Manufacturing {
 
 
     function getProducts() public returns(Product[] memory){
+        delete productList;
         doors();
         frames();
         buttons();
