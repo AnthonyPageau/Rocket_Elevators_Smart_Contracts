@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Pete's Pet Shop</title>
-
+    <title>Rocket Elevators Assembler</title>
+  
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -17,12 +17,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <div class="container">
-      <div class="row">
+  <body style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="container jumbotron" style="background-color:gainsboro;">
+      <div class="row bg-primary text-white">
         <div class="col-xs-12 col-sm-8 col-sm-push-2">
-          <h1 class="text-center">Rocket Elevator Assembler</h1>
+          <h1 class="text-center" style="font-family:optima;">Rocket Elevators's </h1> 
+            
           <hr/>
+          <h1 class="text-center" style="font-family:optima;">Product Assembler</h1>
           <br/>
         </div>
       </div>
@@ -33,27 +35,39 @@
     </div>
 
     <div id="materials_template" style="display: none;">
-      <div class="col-sm-6 col-md-4 col-lg-3">
-        <div class="panel panel-default panel-assembly">
-          <div class="panel-heading">
-            <h3 class="panel-title">Door Assembler</h3>
-          </div>
-          <div class="panel-body">
-            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" src="../images/dooors.jpeg" data-holder-rendered="true">
+      <div class="col-xs-12 col-sm-12 container ">
+        <div class="card">
+         <br/>
+          <div class="card-body " style="background-color:gainsboro;">
+            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;" src="../images/Assembler.jpeg" data-holder-rendered="true">
             <br/><br/>
-            <strong>Steel Panel</strong>: <span class="steel_panel">Steel Panel</span><br/>
-            <strong>Rails</strong>: <span class="rails">Rails</span><br/>
-            <strong>Sensor</strong>: <span class="sensor">Sensor</span><br/>
-            <strong>Steel Sheet</strong>: <span class="steel_sheet">Steel Sheet</span><br/>
-            <strong>Pulley</strong>: <span class="pulley">Pulley</span><br/>
-            <strong>Motor</strong>: <span class="motor">Motor</span><br/>
-            <strong>Steel Cable</strong>: <span class="steelcable">Steel Cable</span><br/>
-            <strong>Led light</strong>: <span class="ledlight">Led light</span><br/>
-            <strong>Buttons</strong>: <span class="button">Button</span><br/>
-            <strong>Screen</strong>: <span class="screen">Screen</span><br/>
-            <strong>Controller</strong>: <span class="controller">Controller</span><br/><br/>
-            <button class="btn btn-default btn-assemble" type="button" data-id="0">Assemble</button>
-            <button class="btn btn-default btn-production" type="button" data-id="1">Add to Production List</button>
+          <table class="table" style="margin-left:75px;">
+            <tbody>
+              <tr>
+                 <th><p class="lead" style="font-size:3rem;"><strong>Steel Panel</strong>: <span class="steel_panel">Steel Panel</span></p></th>
+                 <td><p class="lead" style="font-size:3rem;"><strong>Rails</strong>: <span class="rails">Rails</span></p></td> 
+                 <td><p class="lead" style="font-size:3rem;"><strong >Sensor</strong>: <span class="sensor">Sensor</span></p></td>
+              </tr>
+              <tr>
+                 <th><p class="lead" style="font-size:3rem;"><strong>Steel Sheet</strong>: <span class="steel_sheet">Steel Sheet</span></p></th>
+                 <td><p class="lead" style="font-size:3rem;"><strong>Pulley</strong>: <span class="pulley">Pulley</span></p></td>
+                 <td><p class="lead" style="font-size:3rem;"><strong>Motor</strong>: <span class="motor">Motor</span></p></td>
+              </tr>
+              <tr>
+                <th><p class="lead" style="font-size:3rem;"><strong>Steel Cable</strong>: <span class="steelcable">Steel Cable</span></p></th>
+                <td><p class="lead" style="font-size:3rem;"><strong>Led light</strong>: <span class="ledlight">Led light</span></p></td>
+                <td><p class="lead" style="font-size:3rem;"><strong>Buttons</strong>: <span class="button">Button</p></td>
+              </tr>
+              <tr>
+                <th><p class="lead" style="font-size:3rem;"><strong>Screen</strong>: <span class="screen">Screen</span></p></th>
+                <td><p class="lead" style="font-size:3rem;"><strong>Controller</strong>: <span class="controller">Controller</span></p></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="text-center">
+            <button class="btn-danger btn-lg btn-assemble" style="font-size:3.5rem; width:70%;" type="button" data-id="0">Assemble</button>
+          </div>
+            
           </div>
         </div>
       </div>
