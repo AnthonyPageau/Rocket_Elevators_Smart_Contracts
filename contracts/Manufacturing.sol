@@ -162,8 +162,9 @@ contract Manufacturing {
 
 
     // gets all the roducts regardless of their type
-    function getProducts(address a) public returns (Product[] memory) {
-        otherContract.Material[] memory material = otherContract(a).leurFonction();
+
+
+    function getProducts() public returns(Product[] memory){
         delete productList;
         doors();
         frames();

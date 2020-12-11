@@ -1,27 +1,76 @@
-// const Manufacturing = artifacts.require("Manufacturing");
+const Manufacturing = artifacts.require("Manufacturing");
 
-// contract("Manufacturing", (accounts) => {
-//  let manufacturing;
-//  let expectedPetId;
+contract("Manufacturing", function() {
+    let manufacturing;
+    let numDoors;
+    let meta;
+    let numFrames;
+    let numButtons;
+    let numDisplay;
+    let numBatteries;
 
-//  before(async () => {
-//     manufacturing = await Manufacturing.deployed();
-//  });
 
-//  describe("adopting a pet and retrieving account addresses", async () => {
-//    before("adopt a pet using accounts[0]", async () => {
-//      await adoption.adopt(8, { from: accounts[0] });
-//      expectedAdopter = accounts[0];
-//    });
-//  });
-   
-//     it("can fetch the address of an owner by pet id", async () => {
-//       const adopter = await adoption.adopters(8);
-//       assert.equal(adopter, expectedAdopter, "The owner of the adopted pet should be the first account.");
-//     });
-//    });
+  
 
-//    it("can fetch the collection of all pet owners' addresses", async () => {
-//     const adopters = await adoption.getAdopters();
-//     assert.equal(adopters[8], expectedAdopter, "The owner of the adopted pet should be in the collection.");
-//    });
+
+    describe('getting the number of doors using getDoors', () =>{
+        it("Should return number of doors", () => {
+            Manufacturing.deployed()
+            .then(instance =>  {
+                meta = instance;        
+                meta.getDoors.call().then(numDoors => {
+                    assert.equal(numDoors, 10);
+                });
+            })
+        })
+    })
+
+    describe('getting the number of frames using getFrames', () =>{
+        it("Should return number of frames", () => {
+            Manufacturing.deployed()
+            .then(instance =>  {
+                meta = instance;        
+                meta.getFrames.call().then(numFrames => {
+                    assert.equal(numFrames, 2);
+                });
+            })
+        })
+    })
+
+    describe('getting the number of buttons using getButtons', () =>{
+        it("Should return number of buttons", () => {
+            Manufacturing.deployed()
+            .then(instance =>  {
+                meta = instance;        
+                meta.getButtons.call().then(numButtons => {
+                    assert.equal(numButtons, 10);
+                });
+            })
+        })
+    })
+
+    describe('getting the number of display using getDisplay', () =>{
+        it("Should return number of display", () => {
+            Manufacturing.deployed()
+            .then(instance =>  {
+                meta = instance;        
+                meta.getDisplay.call().then(numDisplay => {
+                    assert.equal(numDisplay, 1);
+                });
+            })
+        })
+    })
+
+    describe('getting the number of batteries using getBatteries', () =>{
+        it("Should return number of batteries", () => {
+            Manufacturing.deployed()
+            .then(instance =>  {
+                meta = instance;        
+                meta.getBatteries.call().then(numBatteries => {
+                    assert.equal(numBatteries, 1);
+                });
+            })
+        })
+    })
+})
+
